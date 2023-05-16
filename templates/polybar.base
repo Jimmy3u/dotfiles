@@ -1,0 +1,7 @@
+[colors]
+background = {color8}
+foreground = {color15}
+active = {color4}
+inactive = {color6}
+highlight = {color12}
+error = {color9}
