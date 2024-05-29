@@ -1,0 +1,10 @@
+set $TERMINAL kitty
+set $FILE_MANAGER dolphin
+set $WEB_BROWSER firefox
+set $IDE code
+
+# Quick launch default programs
+bindsym $mod+w exec --no-startup-id $WEB_BROWSER
+bindsym $mod+f exec --no-startup-id $FILE_MANAGER
+bindsym $mod+c exec --no-startup-id $IDE
+bindsym $mod+Return exec --no-startup-id $TERMINAL
